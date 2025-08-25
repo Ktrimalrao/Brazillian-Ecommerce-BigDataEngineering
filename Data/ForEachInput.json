@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
 	{
 	"csv_relative_url": "Brazillian-Ecommerce-BigDataEngineering/refs/heads/main/Data/olist_customers_dataset.csv",
@@ -28,4 +29,35 @@
 	"file_name":"olist_sellers_dataset.csv"
 	
 	}
+=======
+[
+	{
+	"csv_relative_url": "Brazillian-Ecommerce-BigDataEngineering/refs/heads/main/Data/olist_customers_dataset.csv",
+	"file_name":"olist_customers_dataset.csv"
+	},
+	{
+	"csv_relative_url": "Brazillian-Ecommerce-BigDataEngineering/refs/heads/main/Data/olist_geolocation_dataset.csv",
+	"file_name":"olist_geolocation_dataset.csv"
+	},
+	{
+	"csv_relative_url": "Brazillian-Ecommerce-BigDataEngineering/refs/heads/main/Data/olist_order_items_dataset.csv",
+	"file_name":"olist_order_items_dataset.csv"
+	},
+	{
+	"csv_relative_url": "Brazillian-Ecommerce-BigDataEngineering/refs/heads/main/Data/olist_order_reviews_dataset.csv",
+	"file_name":"olist_order_reviews_dataset.csv"
+	},
+	{
+	"csv_relative_url": "Brazillian-Ecommerce-BigDataEngineering/refs/heads/main/Data/olist_orders_dataset.csv",
+	"file_name":"olist_orders_dataset.csv"
+	},
+	{
+	"csv_relative_url": "Brazillian-Ecommerce-BigDataEngineering/refs/heads/main/Data/olist_products_dataset.csv",
+	"file_name":"olist_products_dataset.csv"
+	},
+	{
+	"csv_relative_url": "Brazillian-Ecommerce-BigDataEngineering/refs/heads/main/Data/olist_sellers_dataset.csv",
+	"file_name":"olist_sellers_dataset.csv"
+	}
+>>>>>>> 3d2f1152d0ea9e87568ce8d048e42cbf6205ebff
 ]
