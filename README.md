@@ -252,15 +252,17 @@ GROUP BY customer_state;
 ## 📈 Data Flow
 
 ```mermaid
+
 graph TD
     A[GitHub CSV Files] --> B[Azure Data Factory]
     C[MySQL Database] --> B
-    B --> E[ADLS Gen2 Bronze]
+    D[MongoDB] --> B
+    B --> E[ADLS Gen2 - Bronze]
     E --> F[Azure Databricks]
-    D[MongoDB] --> E
-    F --> G[ADLS Gen2 Silver]
-    G --> H[Azure Synapse]
-    H --> I[ADLS Gen2 Gold]
+    F --> G[ADLS Gen2 - Silver]
+    G --> H[Azure Synapse Analytics]
+    H --> I[ADLS Gen2 - Gold]
+
 
 ```
 
