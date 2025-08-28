@@ -256,12 +256,12 @@ GROUP BY customer_state;
 graph TD
     A[GitHub CSV Files] --> B[Azure Data Factory]
     C[MySQL Database] --> B
-    D[MongoDB] --> B
-    B --> E[ADLS Gen2 - Bronze]
+    B --> E[ADLS Gen2 Bronze]
     E --> F[Azure Databricks]
-    F --> G[ADLS Gen2 - Silver]
+    D[MongoDB] --> F
+    F --> G[ADLS Gen2 Silver]
     G --> H[Azure Synapse Analytics]
-    H --> I[ADLS Gen2 - Gold]
+    H --> I[ADLS Gen2 Gold]
 
 
 ```
