@@ -44,7 +44,6 @@ The project follows a **modern data stack architecture** with the following comp
 2. **Storage Layer**: Azure Data Lake Storage Gen2 (ADLS)
 3. **Processing Layer**: Azure Databricks
 4. **Analytics Layer**: Azure Synapse Analytics
-5. **Presentation Layer**: Power BI / Tableau / Fabric
 
 ## 🛠️ Technologies Used
 
@@ -256,9 +255,9 @@ GROUP BY customer_state;
 graph TD
     A[GitHub CSV Files] --> B[Azure Data Factory]
     C[MySQL Database] --> B
-    D[MongoDB] --> B
     B --> E[ADLS Gen2 Bronze]
     E --> F[Azure Databricks]
+    D[MongoDB] --> E
     F --> G[ADLS Gen2 Silver]
     G --> H[Azure Synapse]
     H --> I[ADLS Gen2 Gold]
